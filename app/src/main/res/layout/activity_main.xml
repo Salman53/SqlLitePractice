@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/id_edtId"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Id"/>
+
+    <EditText
+        android:id="@+id/id_edtName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_below="@+id/id_edtId"/>
+
+    <EditText
+        android:id="@+id/id_edtEmail"
+        android:layout_below="@+id/id_edtName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/id_edtMobile"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_edtEmail"
+        android:hint="Mobile"/>
+
+
+    <Button
+        android:id="@+id/id_btnSave"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/id_edtMobile"/>
+
+    <Button
+        android:id="@+id/id_btnView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/id_btnSave"/>
+
+    <Button
+        android:id="@+id/id_btnDelete"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/id_btnView"/>
+
+    <Button
+        android:id="@+id/id_btnUpdate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/id_btnDelete"/>
+
+    <Button
+        android:id="@+id/id_btnSearch"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/id_btnUpdate"/>
+
+
+
+</RelativeLayout>
